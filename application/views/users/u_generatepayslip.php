@@ -423,7 +423,7 @@
 					if (($fromDay >= $sssFrom && $fromDay <= $sssTo) || ($toDay >= $sssFrom && $toDay <= $sssTo)) {
 						if ($GrossPayTotal >= $srow['f_range'] && $GrossPayTotal <= $srow['t_range']) {
 							$SSSTotal = $srow['contribution_ee'];
-							echo ($fromDay >= $sssFrom && $fromDay <= $sssTo);
+							// echo ($fromDay >= $sssFrom && $fromDay <= $sssTo);
  						}
 					}
 				}
